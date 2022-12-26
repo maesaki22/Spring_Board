@@ -49,7 +49,7 @@ public class BoardController {
 		//}else
 		//	System.out.println("session :: is null");
 		// checked 항목 db에서 가져옵니다.
-		List<ComcodeVo> comCodeList = new ArrayList<ComcodeVo>();
+		List<ComcodeVo> comCodeList = new ArrayList<ComcodeVo>(); 
 		String codeType = "menu";
 		comCodeList = boardService.SelectMenuList(codeType);
 		// checkedbox 항목을  pageVo에 담는 과정
